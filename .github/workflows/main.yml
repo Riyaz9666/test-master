@@ -27,6 +27,9 @@ jobs:
              python --version
       - name: check processes
         run: netstat -tulpno
-         
+      - name: java check
+        run: |
+               javac HelloWorld.java
+               java HelloWorld.java
        
 
