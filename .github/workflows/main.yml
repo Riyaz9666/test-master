@@ -21,7 +21,10 @@ jobs:
       - name: run another command
         run: |
              java --version
-             javac HelloWorld.java
+             mvn --version
+             git --version
+             doocker -v
+             python --version
          
        
 
