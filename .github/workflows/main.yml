@@ -25,6 +25,8 @@ jobs:
              git --version
              docker -v
              python --version
+      - name: check processes
+        run: ps -ef
          
        
 
