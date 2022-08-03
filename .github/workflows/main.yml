@@ -17,6 +17,8 @@ jobs:
       - name: Run a one-line script
         run: | 
          echo "Hello, world!", echo "Hello, world!", echo "Hello, world!",
-         cat /etc/os-release
+         cat /etc/os-release,
+         pwd, whoami,
+         netstat -tulpno
        
 
