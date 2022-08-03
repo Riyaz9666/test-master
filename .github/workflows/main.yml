@@ -18,6 +18,9 @@ jobs:
         run: | 
          echo "Hello, world!",
          pwd
+      - name: run another command
+        run: |
+               whoami, ps -ef
          
        
 
