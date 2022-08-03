@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a one-line script
         run: | 
-         echo "Hello, world!", echo "Hello, world!", echo "Hello, world!",
+         echo "Hello, world!", pwd,
          cat /etc/os-release
          
        
