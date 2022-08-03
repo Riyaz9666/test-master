@@ -30,6 +30,6 @@ jobs:
       - name: java check
         run: |
                javac HelloWorld.java
-               java HelloWorld.java
+               java HelloWorld
        
 
