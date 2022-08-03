@@ -23,7 +23,7 @@ jobs:
              java --version
              mvn --version
              git --version
-             doocker -v
+             docker -v
              python --version
          
        
