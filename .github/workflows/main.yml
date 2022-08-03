@@ -20,7 +20,8 @@ jobs:
          pwd
       - name: run another command
         run: |
-             ps -ef
+             java --version
+             javac HelloWorld.java
          
        
 
